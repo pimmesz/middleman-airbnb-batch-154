@@ -12,3 +12,10 @@ gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem "awesome_print"
+  gem 'quiet_assets'
+end
+
